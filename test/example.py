@@ -7,7 +7,6 @@ Author: Ziwei Xiang <knightzz1016@gmail.com>
 Create Date: 2024/4/19
 """
 
-
 from indoorjson3 import deserialization, graph_visualize, hypergraph_visualize
 
 if __name__ == "__main__":
