@@ -1,0 +1,606 @@
+{
+    "properties": {
+      "name": "indoorjson3-python-example",
+      "labels": ["indoorgml", "GIS"],
+      "language": ["English", "中文", "한국어"],
+      "author": {
+        "name": "Ziwei Xiang",
+        "email": "knightzz1016@gmail.com"
+      }
+    },
+    "cells": [
+      {
+        "$id": "c1",
+        "properties": {
+          "type": "highway",
+          "segment": "intersection",
+          "aisleType": "none",
+          "aisleLevel": 0,
+          "isNearPOI": false
+        },
+        "space": "POLYGON ((0 0, 1 0, 1 1, 0 1, 0 0))",
+        "node": "POINT (0.5 0.5)"
+      },
+      {
+        "$id": "c2",
+        "properties": {},
+        "space": "POLYGON ((1 0, 3 0, 3 1, 1 1, 1 0))",
+        "node": "POINT (2.0 0.5)"
+      },
+      {
+        "$id": "c3",
+        "properties": {
+          "type": "normal",
+          "segment": "intersection",
+          "aisleType": "none",
+          "aisleLevel": 1,
+          "isNearPOI": true
+        },
+        "space": "POLYGON ((3 0, 4 0, 4 1, 3 1, 3 0))",
+        "node": "POINT (3.5 0.5)"
+      },
+      {
+        "$id": "c4",
+        "properties": {
+          "type": "normal",
+          "segment": "road section",
+          "aisleType": "tunnel",
+          "aisleLevel": 1,
+          "isNearPOI": true
+        },
+        "space": "POLYGON ((4 0, 6 0, 6 1, 4 1, 4 0))",
+        "node": "POINT (5.0 0.5)"
+      },
+      {
+        "$id": "c5",
+        "properties": {
+          "type": "normal",
+          "segment": "intersection",
+          "aisleType": "none",
+          "aisleLevel": 1,
+          "isNearPOI": true
+        },
+        "space": "POLYGON ((6 0, 7 0, 7 1, 6 1, 6 0))",
+        "node": "POINT (6.5 0.5)"
+      },
+      {
+        "$id": "c6",
+        "properties": {
+          "type": "highway",
+          "segment": "road section",
+          "aisleType": "none",
+          "aisleLevel": 0,
+          "isNearPOI": false
+        },
+        "space": "POLYGON ((0 1, 1 1, 1 3, 0 3, 0 1))",
+        "node": "POINT (0.5 2.0)"
+      },
+      {
+        "$id": "c7",
+        "properties": {
+          "type": "normal",
+          "segment": "road section",
+          "aisleType": "tunnel",
+          "aisleLevel": 1,
+          "isNearPOI": true
+        },
+        "space": "POLYGON ((3 1, 4 1, 4 3, 3 3, 3 1))",
+        "node": "POINT (3.5 2.0)"
+      },
+      {
+        "$id": "c8",
+        "properties": {
+          "type": "normal",
+          "segment": "road section",
+          "aisleType": "tunnel",
+          "aisleLevel": 1,
+          "isNearPOI": true
+        },
+        "space": "POLYGON ((6 1, 7 1, 7 3, 6 3, 6 1))",
+        "node": "POINT (6.5 2.0)"
+      },
+      {
+        "$id": "c9",
+        "properties": {
+          "type": "highway",
+          "segment": "intersection",
+          "aisleType": "none",
+          "aisleLevel": 0,
+          "isNearPOI": false
+        },
+        "space": "POLYGON ((0 3, 1 3, 1 4, 0 4, 0 3))",
+        "node": "POINT (0.5 3.5)"
+      },
+      {
+        "$id": "c10",
+        "properties": {},
+        "space": "POLYGON ((1 3, 3 3, 3 4, 1 4, 1 3))",
+        "node": "POINT (2.0 3.5)"
+      },
+      {
+        "$id": "c11",
+        "properties": {
+          "type": "normal",
+          "segment": "intersection",
+          "aisleType": "none",
+          "aisleLevel": 1,
+          "isNearPOI": true
+        },
+        "space": "POLYGON ((3 3, 4 3, 4 4, 3 4, 3 3))",
+        "node": "POINT (3.5 3.5)"
+      },
+      {
+        "$id": "c12",
+        "properties": {
+          "type": "normal",
+          "segment": "road section",
+          "aisleType": "tunnel",
+          "aisleLevel": 1,
+          "isNearPOI": true
+        },
+        "space": "POLYGON ((4 3, 6 3, 6 4, 4 4, 4 3))",
+        "node": "POINT (5.0 3.5)"
+      },
+      {
+        "$id": "c13",
+        "properties": {
+          "type": "normal",
+          "segment": "intersection",
+          "aisleType": "none",
+          "aisleLevel": 1,
+          "isNearPOI": true
+        },
+        "space": "POLYGON ((6 3, 7 3, 7 4, 6 4, 6 3))",
+        "node": "POINT (6.5 3.5)"
+      },
+      {
+        "$id": "c14",
+        "properties": {
+          "type": "highway",
+          "segment": "road section",
+          "aisleType": "none",
+          "aisleLevel": 0,
+          "isNearPOI": false
+        },
+        "space": "POLYGON ((0 4, 1 4, 1 6, 0 6, 0 4))",
+        "node": "POINT (0.5 5.0)"
+      },
+      {
+        "$id": "c15",
+        "properties": {},
+        "space": "POLYGON ((3 4, 4 4, 4 6, 3 6, 3 4))",
+        "node": "POINT (3.5 5.0)"
+      },
+      {
+        "$id": "c16",
+        "properties": {},
+        "space": "POLYGON ((6 4, 7 4, 7 6, 6 6, 6 4))",
+        "node": "POINT (6.5 5.0)"
+      },
+      {
+        "$id": "c17",
+        "properties": {
+          "type": "highway",
+          "segment": "intersection",
+          "aisleType": "none",
+          "aisleLevel": 0,
+          "isNearPOI": false
+        },
+        "space": "POLYGON ((0 6, 1 6, 1 7, 0 7, 0 6))",
+        "node": "POINT (0.5 6.5)"
+      },
+      {
+        "$id": "c18",
+        "properties": {},
+        "space": "POLYGON ((1 6, 3 6, 3 7, 1 7, 1 6))",
+        "node": "POINT (2.0 6.5)"
+      },
+      {
+        "$id": "c19",
+        "properties": {
+          "type": "normal",
+          "segment": "intersection",
+          "aisleType": "none",
+          "aisleLevel": 0,
+          "isNearPOI": false
+        },
+        "space": "POLYGON ((3 6, 4 6, 4 7, 3 7, 3 6))",
+        "node": "POINT (3.5 6.5)"
+      },
+      {
+        "$id": "c20",
+        "properties": {},
+        "space": "POLYGON ((4 6, 6 6, 6 7, 4 7, 4 6))",
+        "node": "POINT (5.0 6.5)"
+      },
+      {
+        "$id": "c21",
+        "properties": {
+          "type": "normal",
+          "segment": "intersection",
+          "aisleType": "none",
+          "aisleLevel": 0,
+          "isNearPOI": false
+        },
+        "space": "POLYGON ((6 6, 7 6, 7 7, 6 7, 6 6))",
+        "node": "POINT (6.5 6.5)"
+      }
+    ],
+    "connections": [
+      {
+        "$id": "conn1-2",
+        "properties": {},
+        "fr": "c1",
+        "to": "c2",
+        "bound": "LINESTRING (1 0, 1 1)",
+        "edge": "LINESTRING (0.5 0.5, 2.0 0.5)"
+      },
+      {
+        "$id": "conn2-3",
+        "properties": {
+          "type": "door",
+          "开放时间": "全天",
+          "오픈 시간": "하루 종일"
+        },
+        "fr": "c2",
+        "to": "c3",
+        "bound": "LINESTRING (3 0, 3 1)",
+        "edge": "LINESTRING (2.0 0.5, 3.5 0.5)"
+      },
+      {
+        "$id": "conn3-4",
+        "properties": {},
+        "fr": "c3",
+        "to": "c4",
+        "bound": "LINESTRING (4 0, 4 1)",
+        "edge": "LINESTRING (3.5 0.5, 5.0 0.5)"
+      },
+      {
+        "$id": "conn4-5",
+        "properties": {},
+        "fr": "c4",
+        "to": "c5",
+        "bound": "LINESTRING (6 0, 6 1)",
+        "edge": "LINESTRING (5.0 0.5, 6.5 0.5)"
+      },
+      {
+        "$id": "conn13-12",
+        "properties": {},
+        "fr": "c13",
+        "to": "c12",
+        "bound": "LINESTRING (6 3, 6 4)",
+        "edge": "LINESTRING (6.5 3.5, 5.0 3.5)"
+      },
+      {
+        "$id": "conn12-11",
+        "properties": {
+          "type": "door",
+          "开放时间": "全天",
+          "오픈 시간": "하루 종일"
+        },
+        "fr": "c12",
+        "to": "c11",
+        "bound": "LINESTRING (4 3, 4 4)",
+        "edge": "LINESTRING (5.0 3.5, 3.5 3.5)"
+      },
+      {
+        "$id": "conn11-10",
+        "properties": {},
+        "fr": "c11",
+        "to": "c10",
+        "bound": "LINESTRING (3 3, 3 4)",
+        "edge": "LINESTRING (3.5 3.5, 2.0 3.5)"
+      },
+      {
+        "$id": "conn10-9",
+        "properties": {},
+        "fr": "c10",
+        "to": "c9",
+        "bound": "LINESTRING (1 3, 1 4)",
+        "edge": "LINESTRING (2.0 3.5, 0.5 3.5)"
+      },
+      {
+        "$id": "conn21-20",
+        "properties": {
+          "type": "door",
+          "开放时间": "全天",
+          "오픈 시간": "하루 종일"
+        },
+        "fr": "c21",
+        "to": "c20",
+        "bound": "LINESTRING (6 6, 6 7)",
+        "edge": "LINESTRING (6.5 6.5, 5.0 6.5)"
+      },
+      {
+        "$id": "conn20-19",
+        "properties": {},
+        "fr": "c20",
+        "to": "c19",
+        "bound": "LINESTRING (4 6, 4 7)",
+        "edge": "LINESTRING (5.0 6.5, 3.5 6.5)"
+      },
+      {
+        "$id": "conn19-18",
+        "properties": {},
+        "fr": "c19",
+        "to": "c18",
+        "bound": "LINESTRING (3 6, 3 7)",
+        "edge": "LINESTRING (3.5 6.5, 2.0 6.5)"
+      },
+      {
+        "$id": "conn18-17",
+        "properties": {},
+        "fr": "c18",
+        "to": "c17",
+        "bound": "LINESTRING (1 6, 1 7)",
+        "edge": "LINESTRING (2.0 6.5, 0.5 6.5)"
+      },
+      {
+        "$id": "conn5-8",
+        "properties": {
+          "type": "door",
+          "开放时间": "全天",
+          "오픈 시간": "하루 종일"
+        },
+        "fr": "c5",
+        "to": "c8",
+        "bound": "LINESTRING (6 1, 7 1)",
+        "edge": "LINESTRING (6.5 0.5, 6.5 2.0)"
+      },
+      {
+        "$id": "conn8-13",
+        "properties": {},
+        "fr": "c8",
+        "to": "c13",
+        "bound": "LINESTRING (6 3, 7 3)",
+        "edge": "LINESTRING (6.5 2.0, 6.5 3.5)"
+      },
+      {
+        "$id": "conn13-16",
+        "properties": {},
+        "fr": "c13",
+        "to": "c16",
+        "bound": "LINESTRING (6 4, 7 4)",
+        "edge": "LINESTRING (6.5 3.5, 6.5 5.0)"
+      },
+      {
+        "$id": "conn16-21",
+        "properties": {
+          "type": "door",
+          "开放时间": "全天",
+          "오픈 시간": "하루 종일"
+        },
+        "fr": "c16",
+        "to": "c21",
+        "bound": "LINESTRING (6 6, 7 6)",
+        "edge": "LINESTRING (6.5 5.0, 6.5 6.5)"
+      },
+      {
+        "$id": "conn19-15",
+        "properties": {},
+        "fr": "c19",
+        "to": "c15",
+        "bound": "LINESTRING (3 6, 4 6)",
+        "edge": "LINESTRING (3.5 6.5, 3.5 5.0)"
+      },
+      {
+        "$id": "conn15-11",
+        "properties": {
+          "type": "door",
+          "开放时间": "全天",
+          "오픈 시간": "하루 종일"
+        },
+        "fr": "c15",
+        "to": "c11",
+        "bound": "LINESTRING (3 4, 4 4)",
+        "edge": "LINESTRING (3.5 5.0, 3.5 3.5)"
+      },
+      {
+        "$id": "conn11-7",
+        "properties": {},
+        "fr": "c11",
+        "to": "c7",
+        "bound": "LINESTRING (3 3, 4 3)",
+        "edge": "LINESTRING (3.5 3.5, 3.5 2.0)"
+      },
+      {
+        "$id": "conn7-3",
+        "properties": {},
+        "fr": "c7",
+        "to": "c3",
+        "bound": "LINESTRING (3 1, 4 1)",
+        "edge": "LINESTRING (3.5 2.0, 3.5 0.5)"
+      },
+      {
+        "$id": "conn17-14",
+        "properties": {
+          "type": "door",
+          "开放时间": "全天",
+          "오픈 시간": "하루 종일"
+        },
+        "fr": "c17",
+        "to": "c14",
+        "bound": "LINESTRING (0 6, 1 6)",
+        "edge": "LINESTRING (0.5 6.5, 0.5 5.0)"
+      },
+      {
+        "$id": "conn14-9",
+        "properties": {},
+        "fr": "c14",
+        "to": "c9",
+        "bound": "LINESTRING (0 4, 1 4)",
+        "edge": "LINESTRING (0.5 5.0, 0.5 3.5)"
+      },
+      {
+        "$id": "conn9-6",
+        "properties": {},
+        "fr": "c9",
+        "to": "c6",
+        "bound": "LINESTRING (0 3, 1 3)",
+        "edge": "LINESTRING (0.5 3.5, 0.5 2.0)"
+      },
+      {
+        "$id": "conn6-1",
+        "properties": {},
+        "fr": "c6",
+        "to": "c1",
+        "bound": "LINESTRING (0 1, 1 1)",
+        "edge": "LINESTRING (0.5 2.0, 0.5 0.5)"
+      }
+    ],
+    "layers": [
+      {
+        "$id": "layer",
+        "cells": ["c1", "c2"]
+      }
+    ],
+    "rlineses": [
+      {
+        "$id": "rlines1",
+        "cell": "c1",
+        "ins": ["conn6-1"],
+        "outs": ["conn1-2"],
+        "closure": []
+      },
+        {
+            "$id": "rlines2",
+            "cell": "c2",
+            "ins": ["conn1-2"],
+            "outs": ["conn2-3"],
+            "closure": []
+        },
+        {
+            "$id": "rlines3",
+            "cell": "c3",
+            "ins": ["conn2-3", "conn7-3"],
+            "outs": ["conn3-4"],
+            "closure": []
+        },
+        {
+            "$id": "rlines4",
+            "cell": "c4",
+            "ins": ["conn3-4"],
+            "outs": ["conn4-5"],
+            "closure": []
+        },
+        {
+            "$id": "rlines5",
+            "cell": "c5",
+            "ins": ["conn4-5"],
+            "outs": ["conn5-8"],
+            "closure": []
+        },
+        {
+            "$id": "rlines6",
+            "cell": "c6",
+            "ins": ["conn9-6"],
+            "outs": ["conn6-1"],
+            "closure": []
+        },
+        {
+            "$id": "rlines7",
+            "cell": "c7",
+            "ins": ["conn11-7"],
+            "outs": ["conn7-3"],
+            "closure": []
+        },
+        {
+            "$id": "rlines8",
+            "cell": "c8",
+            "ins": ["conn5-8"],
+            "outs": ["conn8-13"],
+            "closure": []
+        },
+        {
+            "$id": "rlines9",
+            "cell": "c9",
+            "ins": ["conn14-9", "conn10-9"],
+            "outs": ["conn9-6"],
+            "closure": []
+        },
+        {
+            "$id": "rlines10",
+            "cell": "c10",
+            "ins": ["conn10-9"],
+            "outs": ["conn11-10"],
+            "closure": []
+        },
+        {
+            "$id": "rlines11",
+            "cell": "c11",
+            "ins": ["conn15-11", "conn12-11"],
+            "outs": ["conn11-10", "conn11-7"],
+            "closure": [["conn15-11", "conn11-7"]]
+        },
+        {
+            "$id": "rlines12",
+            "cell": "c12",
+            "ins": ["conn13-12"],
+            "outs": ["conn12-11"],
+            "closure": []
+        },
+        {
+            "$id": "rlines13",
+            "cell": "c13",
+            "ins": ["conn8-13"],
+            "outs": ["conn13-12", "conn13-16"],
+            "closure": []
+        },
+        {
+            "$id": "rlines14",
+            "cell": "c14",
+            "ins": ["conn17-14"],
+            "outs": ["conn14-9"],
+            "closure": []
+        },
+        {
+            "$id": "rlines15",
+            "cell": "c15",
+            "ins": ["conn19-15"],
+            "outs": ["conn15-11"],
+            "closure": []
+        },
+        {
+            "$id": "rlines16",
+            "cell": "c16",
+            "ins": ["conn13-16"],
+            "outs": ["conn16-21"],
+            "closure": []
+        },
+        {
+            "$id": "rlines17",
+            "cell": "c17",
+            "ins": ["conn18-17"],
+            "outs": ["conn17-14"],
+            "closure": []
+        },
+        {
+            "$id": "rlines18",
+            "cell": "c18",
+            "ins": ["conn19-18"],
+            "outs": ["conn18-17"],
+            "closure": []
+        },
+        {
+            "$id": "rlines19",
+            "cell": "c19",
+            "ins": ["conn20-19"],
+            "outs": ["conn19-18", "conn19-15"],
+            "closure": []
+        },
+        {
+            "$id": "rlines20",
+            "cell": "c20",
+            "ins": ["conn21-20"],
+            "outs": ["conn20-19"],
+            "closure": []
+        },
+        {
+            "$id": "rlines21",
+            "cell": "c21",
+            "ins": ["conn16-21"],
+            "outs": ["conn21-20"],
+            "closure": []
+        }
+    ]
+  }

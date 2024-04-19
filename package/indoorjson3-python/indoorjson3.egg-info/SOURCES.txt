@@ -1,0 +1,14 @@
+setup.py
+indoorjson3-python/indoorjson3/__init__.py
+indoorjson3-python/indoorjson3/cell.py
+indoorjson3-python/indoorjson3/connection.py
+indoorjson3-python/indoorjson3/indoorspace.py
+indoorjson3-python/indoorjson3/layer.py
+indoorjson3-python/indoorjson3/rlines.py
+indoorjson3-python/indoorjson3/serialization.py
+indoorjson3-python/indoorjson3/visualization.py
+indoorjson3-python/indoorjson3.egg-info/PKG-INFO
+indoorjson3-python/indoorjson3.egg-info/SOURCES.txt
+indoorjson3-python/indoorjson3.egg-info/dependency_links.txt
+indoorjson3-python/indoorjson3.egg-info/requires.txt
+indoorjson3-python/indoorjson3.egg-info/top_level.txt

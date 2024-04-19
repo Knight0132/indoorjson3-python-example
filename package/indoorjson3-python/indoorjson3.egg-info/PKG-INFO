@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: indoorjson3
+Version: 0.1.0
+Summary: A Python package for IndoorJson project
+Home-page: https://github.com/Knight0132/indoorjson3-python
+Author: Ziwei Xiang
+Author-email: knightzz1016@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: shapely
+Requires-Dist: typing
+Requires-Dist: numpy
+Requires-Dist: plotly
