@@ -8,10 +8,11 @@ Create Date: 2024/4/19
 """
 
 from indoorjson3 import deserialization, graph_visualize, hypergraph_visualize
+import os
 
 if __name__ == "__main__":
 
-    filename = "example.json"
+    filename = "test/example.json"
     indoor_space = deserialization(filename)
-    graph_visualize(indoor_space)
-    hypergraph_visualize(indoor_space)
+    graph_visualize(indoor_space, "result/graph.html")
+    hypergraph_visualize(indoor_space, "result/hypergraph.html")
